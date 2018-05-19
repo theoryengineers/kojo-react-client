@@ -5,9 +5,9 @@ import 'whatwg-fetch';
 // bacon
 describe('OurApi', () => {   
     const OurApi = new Api();
-    const User = {
-        id: 0
-    };
+    // const User = {
+    //     id: 0
+    // };
 
     it('exists', () => {
         expect(OurApi).toBeDefined();
@@ -50,7 +50,7 @@ describe('OurApi', () => {
     });
 
     it('can delete a user', async() => {
-        
+
     })
     
 

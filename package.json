@@ -1,58 +1,23 @@
 {
-  "name": "react-typescript-webpack-boiler",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack --env.NODE_ENV=local --env.production --progress",
-    "start": "webpack-dev-server",
-    "test": "jest --watch --verbose"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "kojo",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@types/react-router-dom": "^4.2.6",
-    "mobx": "^4.2.1",
-    "mobx-react": "^5.1.2",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-router-dom": "^4.2.2"
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts-ts": "2.16.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
-    "@types/jest": "^22.2.3",
-    "@types/react": "^16.3.14",
-    "@types/react-dom": "^16.0.5",
-    "css-loader": "^0.28.11",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^1.1.11",
-    "html-webpack-plugin": "^3.2.0",
-    "jest": "^22.4.4",
-    "node-sass": "^4.9.0",
-    "sass-loader": "^6.0.7",
-    "style-loader": "^0.20.3",
-    "ts-jest": "^22.4.6",
-    "ts-loader": "^4.3.0",
-    "tslint": "^5.10.0",
-    "tslint-react": "^3.6.0",
-    "typescript": "^2.8.3",
-    "webpack": "^4.8.3",
-    "webpack-cli": "^2.1.3",
-    "webpack-dev-server": "^3.1.4",
-    "whatwg-fetch": "^2.0.4"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
+    "@types/jest": "^23.1.4",
+    "@types/node": "^10.5.2",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "typescript": "^2.9.2"
   }
 }
